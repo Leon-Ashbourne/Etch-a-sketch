@@ -71,3 +71,13 @@ input {
     box-sizing: border-box;
 }
 
+.pad-info {
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+
+}
+
+.pad-info p {
+    margin: auto 100px;
+}
