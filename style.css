@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+body div:not(.sketch-container div) {
+    margin-bottom: 30px;
+}
+.navbar {
+    height: 120px;
+    width: 100%;
+    background-color: lightblue;
+    text-align: center;
+    font-size: 48px;
+    box-sizing: border-box;
+}
+h1 {
+    width: 100%;
+    margin: 0;
+}
+
+.grid-info {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
+button {
+    background-color: white;
+    border: 3px solid black;
+    padding: 8px 24px;
+    font-size: 20px;
+    border-radius: 25px;
+}
+#submit-btn:hover {
+    background-color: grey;
+}
+input {
+    height: 30px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sketch-container {
+    display: flex;
+    border: 3px solid black;
+    width: 706px;
+    height: 706px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    /* align-items: flex-start;
+    justify-content: flex-start; */
+    gap: 0;
+    align-content: flex-start;
+}
+
+.reset-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sketch-container div {
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
